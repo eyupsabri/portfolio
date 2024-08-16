@@ -1,0 +1,138 @@
+.main {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0 40px;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.mainHeader {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 10px;
+}
+.mainHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.calenderContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.experienceContainer {
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eaa338;
+}
+
+.calenderText {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #eaa338;
+}
+
+.calenderIcon {
+  color: #eaa338;
+}
+
+.jobDesc {
+  margin-top: 10px;
+}
+.bulletPointText {
+  margin-bottom: 5px;
+}
+
+.jobTitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.jobDescHeader {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.responsiveImage {
+  width: 70%;
+  min-width: 300px;
+  height: auto;
+}
+.jobTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.innerJobTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 1140px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftContainer {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .rightContainer {
+    width: 90%;
+  }
+}

@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  min-width: 70%;
+  min-height: 400px;
+}
+
+.text {
+  font-weight: 300;
+}
+
+.icons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.icons-container a {
+  color: inherit; /* Ensure the icon color is inherited from the parent */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.icons-container a:visited {
+  color: inherit; /* Ensure visited links do not change color */
+}
