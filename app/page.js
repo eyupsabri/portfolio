@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import { SiLinkedin } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
