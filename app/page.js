@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        <h1 className="my-name">I' am Hüsnü Cemre Özogan</h1>
+        <h1 className="my-name">I&#39;m Hüsnü Cemre Özogan</h1>
         <div className={styles.first}>
           <p className={styles.text}>Full-Stack Developer</p>
         </div>
