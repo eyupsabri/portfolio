@@ -17,6 +17,7 @@
 
 .text {
   font-weight: 300;
+  margin-top: 20px;
 }
 
 .icons-container {
@@ -31,4 +32,15 @@
 
 .icons-container a:visited {
   color: inherit; /* Ensure visited links do not change color */
+}
+
+.textWithBreaks span {
+  display: inline;
+}
+
+@media (max-width: 742px) {
+  .textWithBreaks span {
+    display: block;
+    margin-top: 10px; /* Adjust the value as needed */
+  }
 }

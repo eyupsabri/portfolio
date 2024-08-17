@@ -8,7 +8,7 @@ export default function TheHeader() {
   const currentRoute = usePathname();
   console.log(currentRoute);
   return (
-    <header>
+    <header className={styles.mainHeader}>
       <nav className={styles["my-header"]}>
         <div>
           <h1 style={{ fontWeight: "700" }}>

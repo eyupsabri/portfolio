@@ -18,14 +18,22 @@ export default function Home() {
           React, React-Native
         </p>
         <div>
-          <p className={styles.text}>
-            View my <MyLink title={"Projects"} href={"/projects"} />,
-            <MyLink title={"About me"} href={"/about"} />,
-            <MyLink title={"Resume"} href={"/resume"} />, or send me an email at
-            <MyLink
-              title={"husnu.cemre@gmail.com"}
-              href="mailto:husnu.cemre@gmail.com"
-            />
+          <p className={`${styles.text} ${styles.textWithBreaks}`}>
+            <span>
+              View my <MyLink title={"Projects"} href={"/projects"} />
+              ,
+              <MyLink title={"About me"} href={"/about"} />
+            </span>
+            <span>
+              ,<MyLink title={"Resume"} href={"/resume"} />
+            </span>
+            , or send me an email at
+            <span>
+              <MyLink
+                title={"husnu.cemre@gmail.com"}
+                href="mailto:husnu.cemre@gmail.com"
+              />
+            </span>
           </p>
         </div>
         <p className={styles.text}>See more about me</p>
