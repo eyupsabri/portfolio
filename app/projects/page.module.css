@@ -129,10 +129,16 @@
     align-items: center;
   }
   .leftContainer {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
   }
   .rightContainer {
-    width: 90%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    padding: 10px;
   }
 }
