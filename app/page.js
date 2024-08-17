@@ -20,6 +20,7 @@ export default function Home() {
         <div>
           <p className={styles.text}>
             View my <MyLink title={"Projects"} href={"/projects"} />,
+            <MyLink title={"About me"} href={"/about"} />,
             <MyLink title={"Resume"} href={"/resume"} />, or send me an email at
             <MyLink
               title={"husnu.cemre@gmail.com"}

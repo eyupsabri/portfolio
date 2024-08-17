@@ -27,6 +27,16 @@ export default function TheHeader() {
           <Link
             style={{
               marginLeft: 20,
+              textDecoration: currentRoute == "/about" ? null : "none",
+              fontWeight: "300",
+            }}
+            href="/about"
+          >
+            About Me
+          </Link>
+          <Link
+            style={{
+              marginLeft: 20,
               textDecoration: currentRoute == "/resume" ? null : "none",
               fontWeight: "300",
             }}
