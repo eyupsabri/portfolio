@@ -24,3 +24,9 @@
 .indentedParagraph {
   text-indent: 2em; /* Adjust the value as needed */
 }
+
+@media (max-width: 975px) {
+  .container {
+    width: 90%;
+  }
+}
