@@ -175,6 +175,16 @@ export default function Projects() {
                 <p className={styles.bulletPointText}>
                   • Product update, removal, addition and categorization
                 </p>
+                <p className={styles.bulletPointText}>
+                  <a href="https://e-commercecustomer.azurewebsites.net/">
+                    • https://e-commercecustomer.azurewebsites.net/
+                  </a>
+                </p>
+                <p className={styles.bulletPointText}>
+                  <a href="https://e-commerceadmin.azurewebsites.net/">
+                    • https://e-commerceadmin.azurewebsites.net/
+                  </a>
+                </p>
               </div>
             </Accordion>
           </div>
