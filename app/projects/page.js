@@ -49,7 +49,7 @@ export default function Projects() {
                   frontend
                 </p>
                 <p className={styles.bulletPointText}>
-                  • Code first migration ve n-tier architecture
+                  • Code first migration and n-tier architecture
                 </p>
                 <p className={styles.bulletPointText}>
                   • Movie review can be made by authenticated users

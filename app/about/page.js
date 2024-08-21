@@ -19,9 +19,9 @@ export default function AboutMe() {
           a dynamic team where I can continue to grow as a developer.
         </p>
         <p className={`${styles.paragraph} ${styles.indentedParagraph}`}>
-          I am now seeking my first full-time position in software development,
-          driven by my love for coding and a desire to further enhance my skills
-          in the field.
+          I am now seeking full-time position in software development, driven by
+          my love for coding and a desire to further enhance my skills in the
+          field.
         </p>
       </div>
     </main>
